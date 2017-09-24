@@ -8,7 +8,5 @@ const fixedNews = news.replace(/[^abigl]/g, ``);
 let re = /\w*a\w*b\w*i\w*g\w*a\w*i\w*l\w*/;
   
 return re.test(fixedNews) ? `YES`: `NO`;
-  
-return re.test(news) ? `YES`: `NO`;
-   
+      
 }
